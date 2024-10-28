@@ -18,5 +18,16 @@
     <ClCompile Include="BufferImageTestConsoleApplication2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="spilt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stitching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stitching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

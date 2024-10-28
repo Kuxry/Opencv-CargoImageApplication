@@ -128,6 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BufferImageTestConsoleApplication2.cpp" />
+    <ClCompile Include="spilt.cpp" />
+    <ClCompile Include="stitching.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stitching.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
