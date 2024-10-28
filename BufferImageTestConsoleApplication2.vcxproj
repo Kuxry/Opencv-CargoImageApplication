@@ -130,6 +130,7 @@
     <ClCompile Include="BufferImageTestConsoleApplication2.cpp" />
     <ClCompile Include="spilt.cpp" />
     <ClCompile Include="stitching.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stitching.h" />
