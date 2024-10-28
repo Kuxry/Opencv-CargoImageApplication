@@ -1,3 +1,4 @@
+
 # Image Processing System
 
 ## Overview
@@ -11,11 +12,27 @@ This project contains C++ code designed to handle 16-bit image data processing f
 - **Slice Processing**: Retains only the first 12 columns of image slices that meet the blank image criteria.
 - **Time and Pixel-Based Image Splitting**: The code compares the time difference between image slices and the pixel data to decide if an image needs to be split for further processing.
 
-## Usage
-To run the code, ensure that you have OpenCV installed. Compile the code using a C++ compiler, linking OpenCV libraries as shown below:
-```cpp
-g++ -o image_processing main.cpp `pkg-config --cflags --libs opencv4`
-```
-## License
-This project is licensed under the MIT License.
 
+## Usage
+
+To run the code, ensure that you have OpenCV installed. You can download OpenCV from the official website, and follow the instructions to integrate it into Visual Studio Community for building and running this project.
+
+### Steps to Set Up OpenCV
+
+1. **Download OpenCV**: 
+   Visit the [OpenCV Homepage](https://opencv.org) to download the latest version of OpenCV. You can find detailed documentation and installation guides on the website.
+
+### OpenCV Resources:
+- **Homepage**: <https://opencv.org>
+- **Docs**: <https://docs.opencv.org/4.x/>
+- **Q&A forum**: <https://forum.opencv.org>
+- **Additional OpenCV functionality**: <https://github.com/opencv/opencv_contrib>
+
+2. **Integrate with Visual Studio**: 
+   After downloading OpenCV, follow the integration steps to set it up in Visual Studio. You can refer to the [official documentation](https://docs.opencv.org/4.x/) for configuring Visual Studio to work with OpenCV libraries.
+   
+   Once configured, you can compile the code using Visual Studio and execute the program.
+
+## License
+
+This project is licensed under the MIT License.
